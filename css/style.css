@@ -1,0 +1,260 @@
+
+body {
+	position: relative;
+	height:100%; min-height:100%;
+}
+h2 {
+	font-family: Boogaloo;
+}
+.center {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+h1 {
+	font-family: Anydore;
+}
+
+.center h1 {
+	font-size: 180px;
+	font-family: Anydore;
+}
+
+.center p {
+	font-size: 28px;
+	color:black;
+	background-color: white;
+	width:500px;
+	margin:auto;
+	margin-top: 30px
+}
+
+
+
+.text-style {
+	text-align: center;
+	font-family: Anydore;
+	font-size: 60px
+}
+
+.col-md-6 p {
+	text-align:justify; font-size:19px
+}
+
+.col-md-12 h1 {
+	text-align: center;
+	font-family: Anydore;
+	font-size: 60px
+}
+
+.col-md-4 h1 {
+	font-family: Boogaloo;
+}
+
+.title-service {
+	color:grey;
+}
+
+.title-caption {
+	font-size:30px;
+}
+
+.p-height {
+	margin-top: 10px;
+}
+
+.image {
+  position: relative;
+  margin-bottom:15px; 
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: .3s ease;
+  background-color: #fff;
+}
+
+.image:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text p {
+	margin-bottom: 1px;
+}
+
+.img-size {
+	width:100px;
+}
+
+.img-circle {
+	border-radius: 100%;
+	width: 	150px;
+	height: 150px;
+}
+
+.shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	background:white
+}
+
+.tbl-size {
+	width: 200px;
+}
+
+.tbl-text {
+	text-align:center;
+}
+
+.icon-size {
+	font-size:35px;
+}
+
+.icon-size a{
+	color:black;
+}
+
+.margin-bottom-team {
+	margin-bottom: 30px;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.icon-contact {
+	font-size: 70px;
+}
+
+.bg-coklat {
+	color:#77544D;
+}
+
+.address {
+    margin-top: 3em;
+}
+
+.address-left {
+    float: left;
+    width: 20%;
+    padding: 1.9em;
+    text-align: center;
+    background: #77544D;
+}
+
+.address-left span.fa {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.address-right {
+    float: right;
+    width: 80%;
+    padding: 1.1em 2em;
+    background: #f5f4fa;
+}
+
+.address-right h6 {
+    color: #7d1509;
+    font-size: 1.1em;
+    margin: 0;
+    font-weight: 600;
+}
+
+.address-right p {
+    margin: 1em 0 0 0;
+    font-size: .9em;
+}
+
+.address-right p a {
+    color: #777;
+    text-decoration: none;
+}
+
+.address-right p a:hover {
+    color: #ad1a0a;
+}
+
+.address-right p span {
+    display: block;
+    margin: .5em 0;
+}
+.address-grid {
+    margin: 1em 0;
+}
+
+.bg-contact {
+	background-color:rgba(192,192,192,0.3);
+}
+
+.footer {
+	width: 100%;
+	background-color: #fdf58f;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+}
+
+.bg-cream {
+	background-color:#fff3b7;
+}
+
+
+html{height:100%; min-height:100%;}
+.flex-images {overflow: hidden;}
+.flex-images .item { float: left; margin: 10px; overflow: hidden; position: relative;} /*margin bisa disesuaikan kebutuhan*/
+.flex-images .item img { width: 100%; height: 100%; } /*trik membuat gambar nggak keluar dari posisi yang seharusnya*/
+
+/*memberikan overlay hitam pada gambar dalam keadaan normal*/
+.flex-images .item a::before{content:""; position:absolute; z-index:2; width:100%; height:100%; background:rgba(0,0,0,.5); transition:0.3s; -moz-transition:0.3s; -webkit-transition:0.3s; -o-transition:0.3s;}
+ 
+/*menghilangkan overlay hitam ketika dihover*/
+.flex-images .item:hover a::before{background:rgba(0,0,0,0);}
+
+.centered {
+	position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: anydore;
+    font-size: 70px;
+}
+
+
+.img-header{
+	width: 100%;
+	opacity: 15;
+    filter: alpha(opacity=50);
+}
+
+.tbl-roti td {
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.h1-center {
+	text-align: center
+}
