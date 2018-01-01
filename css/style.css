@@ -258,3 +258,11 @@ html{height:100%; min-height:100%;}
 .h1-center {
 	text-align: center
 }
+
+.img-blog {
+  width: 200px;
+}
+
+.blog p{
+  font-size:20px;
+}
