@@ -220,7 +220,7 @@
 	    	</a>
 	    </div>
 	    <div class="image col-lg-3 col-sm-3 col-md-3">
-	    	<a href="product/sandiwich.php"><img class="img-responsive" src="img/sandwich.jpg" width="300px" height="300px">
+	    	<a href="product/sandwich.php"><img class="img-responsive" src="img/sandwich.jpg" width="300px" height="300px">
 	    		<div class="overlay">
 	    			<div class="text">
 	    				<h2>Sandwich</h2>
@@ -283,7 +283,7 @@
 	    </div>
 	</div>
 	<div class="row justify-content-md-center bg-cream">
-  		<a href="gallery.html"><h2>> Lihat Semua Foto <</h2></a>
+  		<a href="gallery.php"><h2>> Lihat Semua Foto <</h2></a>
   	</div>
 
 
@@ -322,7 +322,7 @@
 	    </div>
   	</div>
   	<div class="row justify-content-md-center">
-  		<a href="blog.html"><h2>> Lihat Semua Blog <</h2></a>
+  		<a href="blog.php"><h2>> Lihat Semua Blog <</h2></a>
   	</div>
   <br>
   <!-- our team -->
